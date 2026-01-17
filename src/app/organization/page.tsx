@@ -89,7 +89,7 @@ export default function OrganizationPage() {
       bgColor: "#e8f3ff",
     },
     {
-      title: "사무부",
+      title: "사무",
       members: [
         { role: "부회장", name: "정택범", gen: "47", phone: "010-7307-5505" },
         { role: "위원장", name: "최희철", gen: "49", phone: "010-3491-0114" },
@@ -99,7 +99,7 @@ export default function OrganizationPage() {
       bgColor: "#e6f9f1",
     },
     {
-      title: "홍보부",
+      title: "홍보",
       members: [
         { role: "부회장", name: "박철우", gen: "42", phone: "010-2010-3503" },
         { role: "위원장", name: "심민기", gen: "49", phone: "010-9892-5926" },
@@ -110,7 +110,7 @@ export default function OrganizationPage() {
       bgColor: "#fff4ed",
     },
     {
-      title: "사업부",
+      title: "사업",
       members: [
         { role: "부회장", name: "신영진", gen: "43", phone: "010-7936-4616" },
         { role: "위원장", name: "박영훈", gen: "43", phone: "010-3187-4053" },
@@ -122,7 +122,7 @@ export default function OrganizationPage() {
       bgColor: "#f3f0ff",
     },
     {
-      title: "청년부",
+      title: "청년",
       members: [
         { role: "부회장", name: "하주형", gen: "44", phone: "010-4738-2636" },
         { role: "위원장", name: "김호수", gen: "48", phone: "010-6745-5569" },
