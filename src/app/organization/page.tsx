@@ -399,7 +399,7 @@ export default function OrganizationPage() {
       <footer className="max-w-3xl mx-auto px-5 py-8">
         <div className="text-center text-xs text-gray-400">
           <p>대한민국 ROTC 비즈니스연합회</p>
-          <p className="mt-1">© 2025 All rights reserved</p>
+          <p className="mt-1">© 2026 All rights reserved</p>
         </div>
       </footer>
     </div>

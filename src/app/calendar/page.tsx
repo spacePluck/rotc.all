@@ -32,128 +32,128 @@ const monthlyEvents: Event[] = [
   {
     id: 1,
     title: "제5,6대 알비연 회장 이취임식",
-    start: new Date(2025, 0, 10),
-    end: new Date(2025, 0, 10),
+    start: new Date(2026, 0, 10),
+    end: new Date(2026, 0, 10),
     allDay: true,
     color: "#3182f6",
   },
   {
     id: 2,
     title: "학군교 위문",
-    start: new Date(2025, 0, 9),
-    end: new Date(2025, 0, 9),
+    start: new Date(2026, 0, 9),
+    end: new Date(2026, 0, 9),
     allDay: true,
     color: "#3182f6",
   },
   {
     id: 3,
     title: "집행부 워크샵 (14~20시)",
-    start: new Date(2025, 0, 17),
-    end: new Date(2025, 0, 17),
+    start: new Date(2026, 0, 17),
+    end: new Date(2026, 0, 17),
     allDay: true,
     color: "#3182f6",
   },
   {
     id: 4,
     title: "자문단, 고문단, 산하조직 간담회(순회)",
-    start: new Date(2025, 1, 15),
-    end: new Date(2025, 1, 15),
+    start: new Date(2026, 1, 15),
+    end: new Date(2026, 1, 15),
     allDay: true,
     color: "#00c471",
   },
   {
     id: 5,
     title: "알비연 봉사단 창단식",
-    start: new Date(2025, 2, 8),
-    end: new Date(2025, 2, 8),
+    start: new Date(2026, 2, 8),
+    end: new Date(2026, 2, 8),
     allDay: true,
     color: "#00c471",
   },
   {
     id: 6,
     title: "세미나(법률, 노무, 세무)",
-    start: new Date(2025, 2, 22),
-    end: new Date(2025, 2, 22),
+    start: new Date(2026, 2, 22),
+    end: new Date(2026, 2, 22),
     allDay: true,
     color: "#00c471",
   },
   {
     id: 7,
     title: "창단 10주년기념 제2회 체육대회",
-    start: new Date(2025, 3, 12),
-    end: new Date(2025, 3, 12),
+    start: new Date(2026, 3, 12),
+    end: new Date(2026, 3, 12),
     allDay: true,
     color: "#f97316",
   },
   {
     id: 8,
     title: "봉사활동(꿈나무마을 파란꿈터)",
-    start: new Date(2025, 4, 10),
-    end: new Date(2025, 4, 10),
+    start: new Date(2026, 4, 10),
+    end: new Date(2026, 4, 10),
     allDay: true,
     color: "#f97316",
   },
   {
     id: 9,
     title: "힐링데이 영화(연극)단체관람",
-    start: new Date(2025, 5, 14),
-    end: new Date(2025, 5, 14),
+    start: new Date(2026, 5, 14),
+    end: new Date(2026, 5, 14),
     allDay: true,
     color: "#f97316",
   },
   {
     id: 10,
     title: "권역별 간담회(순회)",
-    start: new Date(2025, 6, 12),
-    end: new Date(2025, 6, 12),
+    start: new Date(2026, 6, 12),
+    end: new Date(2026, 6, 12),
     allDay: true,
     color: "#8b5cf6",
   },
   {
     id: 11,
     title: "세미나(한약, 치과, 수의사)",
-    start: new Date(2025, 7, 9),
-    end: new Date(2025, 7, 9),
+    start: new Date(2026, 7, 9),
+    end: new Date(2026, 7, 9),
     allDay: true,
     color: "#8b5cf6",
   },
   {
     id: 12,
     title: "김대호, 장문익, 조우재",
-    start: new Date(2025, 7, 23),
-    end: new Date(2025, 7, 23),
+    start: new Date(2026, 7, 23),
+    end: new Date(2026, 7, 23),
     allDay: true,
     color: "#8b5cf6",
   },
   {
     id: 13,
     title: "알비연 한마음 산행",
-    start: new Date(2025, 8, 20),
-    end: new Date(2025, 8, 20),
+    start: new Date(2026, 8, 20),
+    end: new Date(2026, 8, 20),
     allDay: true,
     color: "#8b5cf6",
   },
   {
     id: 14,
     title: "제1회 알비연 회장배 골프, 당구대회",
-    start: new Date(2025, 9, 18),
-    end: new Date(2025, 9, 18),
+    start: new Date(2026, 9, 18),
+    end: new Date(2026, 9, 18),
     allDay: true,
     color: "#ec4899",
   },
   {
     id: 15,
     title: "제1회 알비연 회장배 풋살, 볼링 대회",
-    start: new Date(2025, 10, 15),
-    end: new Date(2025, 10, 15),
+    start: new Date(2026, 10, 15),
+    end: new Date(2026, 10, 15),
     allDay: true,
     color: "#ec4899",
   },
   {
     id: 16,
     title: "알비연 제1회 스키교실",
-    start: new Date(2025, 11, 13),
-    end: new Date(2025, 11, 13),
+    start: new Date(2026, 11, 13),
+    end: new Date(2026, 11, 13),
     allDay: true,
     color: "#ec4899",
   },
@@ -240,7 +240,7 @@ const monthlyData = [
 
 export default function CalendarPage() {
   const [view, setView] = useState<"calendar" | "grid">("grid");
-  const [date, setDate] = useState(new Date(2025, 0, 1));
+  const [date, setDate] = useState(new Date(2026, 0, 1));
 
   const eventStyleGetter = (event: Event) => {
     return {
@@ -336,7 +336,7 @@ export default function CalendarPage() {
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
-            <span className="text-sm font-semibold text-[#3182f6]">2025</span>
+            <span className="text-sm font-semibold text-[#3182f6]">2026</span>
           </div>
           <h2 className="text-2xl font-bold text-gray-900">연간 행사 일정</h2>
           <p className="text-gray-500 mt-1">
@@ -572,7 +572,7 @@ export default function CalendarPage() {
       <footer className="max-w-3xl mx-auto px-5 py-8">
         <div className="text-center text-xs text-gray-400">
           <p>대한민국 ROTC 비즈니스연합회</p>
-          <p className="mt-1">© 2025 All rights reserved</p>
+          <p className="mt-1">© 2026 All rights reserved</p>
         </div>
       </footer>
 

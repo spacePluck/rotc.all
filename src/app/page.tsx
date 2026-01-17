@@ -134,7 +134,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <span className="px-3 py-1 bg-[#e8f3ff] text-[#3182f6] text-xs font-semibold rounded-full">
-                2025
+                2026
               </span>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function Home() {
               </svg>
             }
             title="월별 행사 일정"
-            description="2025년 연간 행사 캘린더"
+            description="2026년 연간 행사 캘린더"
           />
           <NavCard
             href="/organization"
@@ -278,7 +278,7 @@ export default function Home() {
       <footer className="max-w-2xl mx-auto px-5 py-8">
         <div className="text-center text-xs text-gray-400">
           <p>대한민국 ROTC 비즈니스연합회</p>
-          <p className="mt-1">© 2025 All rights reserved</p>
+          <p className="mt-1">© 2026 All rights reserved</p>
         </div>
       </footer>
 
