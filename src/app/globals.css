@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Safe area for iOS devices */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
